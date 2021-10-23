@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Barang Nurfajriah Halimatuz Zahra</title>
+    <style>
+        *{
+            text-decoration: none;
+            list-style: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        nav{
+            background-color: rgb(177, 186, 187);
+            border-bottom: 2px solid black;
+        }
+        div ul.back{
+            display: flex;
+            gap: 18px;
+        }
+        div ul.option{
+            display: flex;
+        }
+        div.option{
+            width: 90%;
+            height: 50px;
+            display: block;
+            border: 1px solid black; background-color: rgb(190, 216, 212);
+            margin: 15px 15px 10px 50px
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center; background-color: rgb(177, 186, 187); margin: 0%; padding: 0%;">A Web Page</h3>
+    <nav style="padding: 0%; margin: 0%;">
+        <div>
+            <ul style="margin: 0 0 20px 0;" class="back">
+                <li><a href="back"><img style="width: 20px; height: 20px;" src="asset/icon/back.png" alt="back"></a></li>
+                <li><a href="forward"><img style="height: 20px; width: 20px;" src="asset/icon/forward.png" alt="forward"></a></li>
+                <li><a href="close"><img style="width: 23px; height: 25px;" src="asset/icon/close.png" alt="close"></a></li>
+                <li><a href="home"><img style="width: 20px; height: 20px;" src="asset/icon/home.png" alt="home"></a></li> 
+                <li><input style="width: 800px; margin-left: 80px; margin-right: 0;" type="search" placeholder="http://"></li>
+                <li><a href=""><img style="width: 30px; height: 30px;" src="asset/icon/searchblack.png" alt="search"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="option">
+        <ul style="margin-left: auto; margin-right: auto;" class="option">
+            <li><a href=""><b>Home</b></a></li>
+            <li style="padding: 0 80px;"><b> |</b></li>
+            <li><a href=""><b>Generate Link</b></a></li>
+            <li style="padding: 0 80px;"><b> |</b></li>
+            <li><a href=""><b>Transaction History</b></a></li>
+            <li style="padding: 0 80px;"><b> |</b></li>
+            <li><a href=""><b>Policy</b></a></li>
+            <li style="padding: 0 80px;"><b> |</b></li>
+            <li><a href=""><b>Log Out</b></a></li>
+        </ul>
+    </div>
+
+    <div style="display: flex; margin-top: 20px;">
+        <table style="margin-left: 50px;">
+            <tr>
+                <td><img style="width: 200px; height: 180px;" src="asset/image/macbook.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Upload Picture"></td>
+            </tr>
+            <tr>
+                <td style="height: 90px;"></td>
+            </tr>
+            <tr>
+                <td style="height: 80px;"></td>
+            </tr>
+        </table>
+
+        <table style="margin-left: 40px;">
+            <tr>
+                <td>Title Here</td>
+                <td>:</td>
+                <td><input style="width: 250px;" type="text" value="Macbook Pro M1 $200.00"></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>:</td>
+                <td><textarea style="margin-right: 50px;" name="desc" id="description" cols="38" rows="6">
+                Year : 2020
+
+                Model :
+
+                Condition : New
+                </textarea></td>
+            </tr>
+            <tr>
+                <td>Account Number</td>
+                <td>:</td>
+                <td><input type="text" name="number" pattern="[0-9]" placeholder="999-999-999-0"></td>
+            </tr>
+            <tr>
+                <td>Bank</td>
+                <td>:</td>
+                <td><select name="bank" id="bank">
+                    <option value="CIMB Niaga">CIMB Niaga</option>
+                    <option value="Citibank">Citibank</option>
+                    <option value="HSBC Holdings">HSBC Holdings</option>
+                    <option value="OCBC NISP">OCBC NISP</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Transaction</td>
+                <td>:</td>
+                <td><input style="width: 35px;" type="number" min="1" max="99" value="1"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>*If the transaction is for 3 person,<br>
+                    choose 3 from the drop-down list</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="send" id="sendmobile">Send to mobile</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="send" id="sendemail">Send to email</td>
+            </tr>
+            <tr>
+                <td>Send to Mobile Phone</td>
+                <td>:</td>
+                <td><input type="text" name="mobilephone" pattern="[0-9]" placeholder="+12 1234 1234 1234"></td>
+            </tr>
+            <tr>
+                <td>Send to email</td>
+                <td>:</td>
+                <td><input type="email" name="email" id="email" placeholder="email@mail.com"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input style="background-color: rgb(69, 196, 107); color: honeydew;" type="button" value="Generate Nabr Link"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
