@@ -1,0 +1,84 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+fieldset.all{
+    background-color: rgb(197, 207, 205);
+    margin: 10px 10px;
+}
+aside{
+    width: 200px;
+    height: 300px;
+    float: right;
+    padding: 10px 10px;
+    background-color: rgb(115, 122, 126);
+    color: rgb(199, 212, 212);
+    text-align: end;
+}
+aside a{
+    display: block;
+    color: white;
+}
+section{
+    padding: 10px;
+}
+section.profile p img{
+    float: left;
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+section img{
+    width: 200px;
+    height: 200px;
+}
+article{
+    padding: 5px 5px 20px 10px;
+}
+div.bawah{
+    display: flex;
+    padding: 10px 20px 0 10px;
+}
+div.bawah table.foto2{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    padding: 5px;
+}
+div.bawah table tr td video{
+    width: 400px;
+    height: 225px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div.bawah table tr td p{
+    text-align: center;
+}
+div.bawah table.foto2{
+    margin-top: 10px;
+}
+div.bawah table.foto2 tr td img{
+    width: 138px;
+    height: 138px;
+    padding: 5px;
+}
+div.bawah fieldset{
+    background-color: white;
+    margin: 0 5px 10px 50px;
+}
+div.bawah fieldset img{
+    width: 30px;
+    height: 30px;
+}
+div.bawah table.attachment tr td img{
+    width: 40px;
+    height: 40px;
+}
+div.bawah table.attachment tr td.link{
+    padding-left: 10px;
+}
