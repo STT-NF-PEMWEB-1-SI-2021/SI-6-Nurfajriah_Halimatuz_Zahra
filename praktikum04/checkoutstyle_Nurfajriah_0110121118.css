@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    background-color: cadetblue;
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid black;
+}
+nav p{
+    margin: 0 0 0 10px;
+    font-weight: bold;
+}
+nav span{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 7px 0 10px 20px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul.icon li{
+    display: flex;
+    margin: 0 5px 0 auto;
+} 
+nav ul.icon{
+    margin-left: auto;
+}
+#check{
+    display: flex; 
+    padding-right: 50px; 
+    margin: 20px 0 0 90px;
+}
+#kamal{
+    font-size: larger;
+    padding: 3px 0 15px 20px;
+}
+table.checklist{
+    margin-right: 30px;
+}
+#num{
+    padding: 5px 0 0 20px;
+}
+#imgc{
+    width: 40px;
+}
+#tabsuccess{
+    display: flex; 
+    padding: 0 50px 50px 50px; 
+    margin-left: 40px;
+}
+.confirm{
+    padding: 18px 0 10px 0;
+}
+.acc{
+    padding: 0 0 18px 0;
+}
+#cust{
+    font-size: larger; 
+    font-weight: bold; 
+    padding: 8px 0 15px 0;
+}
+.bill{
+    padding-left: 30px;
+}
+.address1{
+    padding: 0 0 20px 0px;
+}
+.address2{
+    padding: 0 0 20px 30px;
+}
+div table.success tr td hr{
+    width: 800px;
+}
+table.item{
+    width: 70%;
+}
+div.urcart{
+    margin: 20px 10px;
+    display: flex;
+}
+table.items{
+    width: 70%;
+}
+table.item{
+    width: 80%;
+}
+table tr.option{
+    font-weight: bold;
+}
+table tr td img.product{
+    width: 200px;
+    height: 200px;
+    margin: 0 7px 0 0;
+}
+table tr td.item{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 7px;
+}
+table tr td.total{
+    text-align: end;
+}
+table.sum{
+    background-color: rgb(142, 210, 212);
+    margin: 0 0 0 auto;
+    padding: 10px 10px;
+    width: 25%;
+}
+#pay{
+    padding-left: 30px;
+}
+#shipment{
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    padding-left: 30px;
+}
+#shipmentpic{
+    width: 50px; 
+    height: 20px;
+}
+.hr{
+    padding-top: 10px;
+}
+.summary{
+    font-weight: bold;
+}
+.line{
+    width: 3px;
+    background-color: white;
+}
+#input{
+    width: 200px;
+}
+footer div ul.foot{
+    display: flex;;
+    gap: 10px;
+}
+footer div{
+    display: flex;
+    padding: 15px 0 0 15px;
+}
+footer div ul li a{
+    color: white; 
+    text-decoration: none;
+}
+footer div.foot-atas  ul.letter{
+    margin-left: auto;
+    padding-right: 20px;
+}
+.pay{
+    width: 40px; height: 20px;
+}
+.pay2{
+    width: 40px; 
+    height: 25px;
+}
+footer div ul.payment{
+    display: flex;
+    padding: 0 0 15px 15px;
+    gap: 20px;
+}
+footer div ul.subs{
+    display: flex;
+    margin-left: auto;
+    padding-right: 20px;
+}
+#sub{
+    background-color: rgb(154, 163, 163);
+}
