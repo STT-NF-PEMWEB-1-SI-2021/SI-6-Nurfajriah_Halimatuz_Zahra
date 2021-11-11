@@ -1,0 +1,43 @@
+.box{
+    display: flex;
+}
+#box1{
+    background-color: rgb(247,202,201);
+    width: 24%;
+    height: 38.4em;
+    margin: 0.8em;
+    border: 2px solid black;
+}
+#box1 p{
+    color: rgb(247,202,201);
+}
+#box2{
+    background-color: rgb(235, 216, 215);
+    width: 24%;
+    height: 38.4em;
+    margin: 0.8em;
+    border: 2px solid black;
+}
+#box2 p{
+    color: rgb(235, 216, 215);
+}
+.box3{
+    background-color: rgb(240, 233, 232);
+    width: 24%;
+    height: 38.4em;
+    margin: 0.8em;
+    border: 2px solid black;
+}
+.box3 p{
+    color: rgb(240, 233, 232);
+}
+.box4{
+    background-color: rgb(179, 211, 253);
+    width: 24%;
+    height: 38.4em;
+    margin: 0.8em;
+    border: 2px solid black;
+}
+.box4 p{
+    color: rgb(179, 211, 253);
+}
