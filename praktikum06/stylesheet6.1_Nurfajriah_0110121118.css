@@ -1,0 +1,60 @@
+#top{
+    display: flex;
+    margin: 0.5em;
+}
+.one img{
+    width: 97%;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+.two img{
+    width: 97%;
+    margin-left: 0.1em;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+.three img{
+    width: 23em;
+    height: 6.8em;
+    margin-left: 0.3em;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+#bottom{
+    display: flex;
+    margin: 0.5em;
+}
+.four img{
+    width: 95%;
+    height: 100%;
+    border-radius: 0.7em;
+    border: 2px solid black;
+}
+.five img{
+    width: 15.5em;
+    height: 98%;
+    border-radius: 0.7em;
+    margin-left: 0.3em;
+    border: 2px solid black;
+}
+.six img{
+    width: 95%;
+    height: 100%;
+    border-radius: 0.7em;
+    margin-left: 0.7em;
+    border: 2px solid black;
+}
+.seven img{
+    width: 95%;
+    height: 100%;
+    border-radius: 0.7em;
+    margin-left: 0.9em;
+    border: 2px solid black;
+}
+.eight img{
+    width: 90%;
+    height: 100%;
+    border-radius: 0.7em;
+    margin-left: 1.2em;
+    border: 2px solid black;
+}
