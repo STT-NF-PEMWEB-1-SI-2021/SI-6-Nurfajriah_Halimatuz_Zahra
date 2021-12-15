@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Dollar</title>
+    <script>
+        function konversi() {
+            const RUPIAH = 14650;
+            let dollar = document.getElementById("rp").value;
+            console.log ("dollar : " + dollar)
+            let hitung = RUPIAH * dollar;
+            let area_hasil = document.getElementById("hasil");
+            area_hasil.innerHTML = " dari " + dollar + "$" + " adalah " + hitung;
+        }
+    </script>
+</head>
+<body>
+    <h3>Menghitung Dollar ke Rupiah</h3>
+    Masukkan nilai dollar :
+    <input type="number" value="" size="15" id="rp"/>
+    <br>
+    <button onclick="konversi()">Konversi</button>
+    <br> Hasil <span id="hasil"></span>
+</body>
+</html>
